@@ -66,6 +66,18 @@ Awesome, so I can reduce the overhead of another project in the setup.
 I put this snippet in [sinon-cleanup.js](https://github.com/uxebu/mocha-sinon-traceur-example/blob/fb354685b590390f8695f5ecee890c4f9072f944/src/sinon-cleanup.js)
 and require this instead of the project itself. Thanks [Elliot Foster](https://github.com/elliotf).
 
-## Looking ahead
+## Webpack and ES6
 
-webpack es6-loader
+What is missing yet, is to show how to make this work in the browser.
+That is actually fairly easy using [webpack](http://webpack.github.io)
+and the [es6-loader](https://github.com/shama/es6-loader) module for it.
+
+## Nice to haves
+
+Now one could add things like:
+
+- running it in karma and multiple browsers
+- running it on some browser farm, like saucelabs
+- creating a site that actually says "Hello world" to prove this setup does really work
+
+
