@@ -1,0 +1,16 @@
+{
+  "name": "mocha-with-traceur",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur src/*.js"
+  },
+  "author": "uxebu",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.1",
+    "traceur": "0.0.74"
+  }
+}
