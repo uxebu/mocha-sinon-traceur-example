@@ -1,8 +1,7 @@
 {
   "name": "mocha-with-traceur",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple example project using mocha, sinon and ES6 (by using traceur).",
   "scripts": {
     "test": "mocha --compilers js:mocha-traceur src/*.js"
   },
