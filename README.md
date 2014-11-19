@@ -79,5 +79,5 @@ Now one could add things like:
 - running it in karma and multiple browsers
 - running it on some browser farm, like saucelabs
 - creating a site that actually says "Hello world" to prove this setup does really work
-
+- integrating with travis, code quality tools, etc.
 
