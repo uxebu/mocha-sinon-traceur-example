@@ -9,6 +9,8 @@ A simple example project using mocha, sinon and ES6 (by using traceur).
 
 # What is this an example for?
 
+In short, it's a setup with ES6, testability and backwards compatibility in mind.
+
 ## TDD with ES6
 
 The initial pain I had was to get up to speed with ES6 (using traceur) to be compatible
