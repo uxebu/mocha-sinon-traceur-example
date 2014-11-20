@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "description": "A simple example project using mocha, sinon and ES6 (by using traceur).",
   "scripts": {
-    "test": "mocha --compilers js:mocha-traceur src/*.js"
+    "test": "mocha --compilers js:mocha-traceur src/*.js",
+    "start": "webpack-dev-server"
   },
   "author": "uxebu",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.0.1",
     "sinon": "^1.12.1",
-    "traceur": "0.0.74"
+    "webpack-dev-server": "^1.6.5",
+    "webpack-traceur-loader": "^0.3.0"
   }
 }
