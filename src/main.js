@@ -1,4 +1,4 @@
 import {Some} from './some'
-var jQuery = require('jquery');
+import jQuery from 'jquery'
 
 jQuery(document.body).text(new Some().method());
