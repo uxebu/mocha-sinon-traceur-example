@@ -1,3 +1,4 @@
-import {Some} from './some.js'
+import {Some} from './some'
+var jQuery = require('jquery');
 
-document.body.innerText = new Some().method();
+jQuery(document.body).text(new Some().method());
