@@ -13,6 +13,7 @@
     "mocha": "^2.0.1",
     "sinon": "^1.12.1",
     "webpack-dev-server": "^1.6.5",
-    "webpack-traceur-loader": "^0.3.0"
+    "webpack-traceur-loader": "^0.3.0",
+    "mocha-traceur": "^2.1.0"
   }
 }
